@@ -1,0 +1,65 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - react-static > axios:
+        patched: '2019-07-10T03:36:47.072Z'
+  SNYK-JS-LODASH-450202:
+    - react-static > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > @babel/core > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > webpack-bundle-analyzer > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > inquirer > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > html-webpack-plugin > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > extract-css-chunks-webpack-plugin > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > css-loader > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > react-hot-loader > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > eslint-config-react-tools > eslint-plugin-import > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > eslint-config-react-tools > eslint > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > @babel/core > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-hot-loader > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > react-dev-utils > inquirer > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > @babel/preset-env > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > babel-plugin-universal-import > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > eslint-config-react-tools > eslint > inquirer > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > eslint-config-react-tools > babel-eslint > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > eslint-config-react-tools > eslint > table > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > eslint-config-react-tools > babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > eslint-config-react-tools > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > eslint-config-react-tools > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
+    - react-static > thread-loader > async > lodash:
+        patched: '2019-07-10T03:36:47.072Z'
