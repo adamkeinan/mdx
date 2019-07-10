@@ -7,19 +7,23 @@
     "build": "react-static build",
     "bundle": "react-static bundle",
     "export": "react-static export",
-    "serve": "serve dist -p 3000 -s"
+    "serve": "serve dist -p 3000 -s",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@mdx-js/loader": "^0.20.3",
     "@reach/router": "^1.2.1",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-hot-loader": "^4.3.12",
-    "react-static": "^6.0.0"
+    "react-static": "^7.0.10",
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
     "serve": "10.1.1"
-  }
+  },
+  "snyk": true
 }
