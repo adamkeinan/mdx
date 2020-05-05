@@ -3,12 +3,16 @@
   "name": "x0",
   "version": "0.0.1",
   "scripts": {
-    "start": "x0 pages"
+    "start": "x0 pages",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "MIT",
   "dependencies": {
     "@compositor/x0": "^6.0.4",
     "@rebass/markdown": "^1.0.0-1",
-    "styled-components": "^3.3.3"
-  }
+    "styled-components": "^3.3.3",
+    "snyk": "^1.319.0"
+  },
+  "snyk": true
 }
