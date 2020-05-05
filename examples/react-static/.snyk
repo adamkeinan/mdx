@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-hot-loader > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > react-hot-loader > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > @babel/register > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > css-loader > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > extract-css-chunks-webpack-plugin > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > html-webpack-plugin > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > inquirer > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > webpack-bundle-analyzer > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > eslint-config-react-tools > eslint > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > eslint-config-react-tools > eslint-plugin-import > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > react-dev-utils > inquirer > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > thread-loader > async > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > babel-plugin-universal-import > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > eslint-config-react-tools > babel-eslint > @babel/traverse > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > eslint-config-react-tools > eslint > inquirer > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > eslint-config-react-tools > eslint > table > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > eslint-config-react-tools > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > eslint-config-react-tools > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > eslint-config-react-tools > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
+    - react-static > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-05T06:15:03.544Z'
