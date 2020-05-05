@@ -6,7 +6,9 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "gatsby": "^2.3.24"
@@ -41,6 +43,8 @@
     "remark-mdx-remove-exports": "^1.0.18",
     "remark-mdx-remove-imports": "^1.0.18",
     "remark-slug": "^5.1.1",
-    "styled-system": "^4.1.0"
-  }
+    "styled-system": "^4.1.0",
+    "snyk": "^1.317.0"
+  },
+  "snyk": true
 }
