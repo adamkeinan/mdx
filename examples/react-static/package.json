@@ -10,7 +10,7 @@
     "serve": "serve dist -p 3000 -s"
   },
   "dependencies": {
-    "@mdx-js/loader": "^0.20.3",
+    "@mdx-js/loader": "^1.0.1",
     "@reach/router": "^1.2.1",
     "axios": "^0.18.0",
     "react": "^16.8.1",
